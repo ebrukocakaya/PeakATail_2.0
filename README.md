@@ -34,9 +34,9 @@
     ```bash 
     source ,venv/bin/activate
     ```
-- install requierments
+- install requirements
     ```bash
-    pip install -r requirments.txt
+    pip install -r requirements.txt
     ```
 - install ema 
 - use -e flag to could able automatic updates
