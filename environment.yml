@@ -1,0 +1,13 @@
+name: peakatail
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - samtools  # System tool needed for BAM processing
+  - bedtools  # System tool needed for interval manipulation
+  - pip:
+      - -r requirements.txt  # This loads your exact list above
+      - -e .                 # Installs your 'ema' package itself
